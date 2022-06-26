@@ -1,0 +1,15 @@
+.website__link{
+    max-width: 456px;
+    height: 22px;
+    margin: 12px 0 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    z-index: 10;
+
+}

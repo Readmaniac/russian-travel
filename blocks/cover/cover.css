@@ -1,0 +1,16 @@
+.cover {
+  background-image: url(../../images/__background.jpg);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 320 / 200;
+  width: 100%;
+  object-fit: contain;
+}
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 100%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+.website{
+    align-self: end;
+    max-width: 456px;
+    height: 46px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 16px;
+}
+@media screen and (max-width: 320px) {
+    .place__website {
+      padding-left:16px;
+    }
+  }
