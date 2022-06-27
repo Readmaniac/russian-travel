@@ -10,13 +10,13 @@
 @media screen and (max-width: 1024px) {
   .header {
     max-width: 928px;
-    padding-bottom: 48px;
+
   }
 }
 @media screen and (max-width: 768px) {
   .header {
     max-width: 720px;
-    padding-top: 28px;
+
   }
 }
 @media screen and (max-width: 320px) {

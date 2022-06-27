@@ -1,16 +1,42 @@
 .cover {
-  background-image: url(../../images/__background.jpg);
-  display: flex;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  aspect-ratio: 1184/740;
-  width: 100%;
-  object-fit: contain;
+background-image: url(../../images/__background.jpg);
+display: flex;
+flex-direction: column;
+flex-basis: calc(740 / 1184 * 100vw);
+align-items: center;
+justify-content: center;
+background-repeat: no-repeat;
+padding: 0 312px;
+max-width: 100%;
+position: relative;
 }
 @media screen and (max-width: 1024px) {
   .cover {
-    max-width: 100%;
-    height: 100%;
+    padding: 0 232px;
   }
 }
+@media screen and (max-width: 768px) {
+  .cover {
+    padding: 0 104px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover {
+    padding: 0 16px;
+  }
+}
+.cover::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2A2C2F;
+  opacity: .3;
+}
+.cover:hover::before  {
+  opacity: .8;
+}
+

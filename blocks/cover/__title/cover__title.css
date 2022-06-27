@@ -5,23 +5,21 @@
   font-weight: 900;
   color: #ffffff;
   text-align: center;
-  width: 560px;
-  font-family: 'Inter';
-  font-style: normal; 
+  max-width: 560px;
+  max-height: 152px;
+  z-index: 5;
 }
-@media (min-width: 421px) and (max-width: 560px) {
+@media (min-width: 426px) and (max-width: 560px) {
   .cover__title {
     font-size: 32px;
-    line-height: 35px;
+    line-height: 36px;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 425px) {
   .cover__title {
     width: 250px;
     margin: 0 0 16px;
     font-size: 32px;
-    line-height: 35px;
+    line-height: 36px;
   }
 }
-
-
