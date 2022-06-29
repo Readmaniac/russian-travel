@@ -1,0 +1,20 @@
+.lead__text {
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .lead__text {
+    margin: 0 auto 0 24px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .lead__text {
+    margin: 0 auto 0 16px;
+    max-width: 100%;
+  }
+}

@@ -1,15 +1,14 @@
 .content{
-    max-width: 1184px;
+    max-width: 1280px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     position: relative;
-    align-items: center;
     row-gap: 92px;
 }
 
 
-@media screen and (max-width: 76px) {
+@media screen and (max-width: 768px) {
     .content {
         row-gap: 88px;
     }

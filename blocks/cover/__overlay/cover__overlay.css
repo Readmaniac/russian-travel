@@ -1,0 +1,29 @@
+.cover__overlay {
+    padding-top: 62.6%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(../../../images/__background.jpg);
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+  }
+  .cover__overlay::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #2A2C2F;
+    opacity: .3;
+    transition: .335s ease-in-out;
+  }
+  .cover__overlay:hover::before  {
+    opacity: .8;
+  }
+  

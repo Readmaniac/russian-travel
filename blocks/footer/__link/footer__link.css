@@ -1,28 +1,17 @@
-.footer__link{
-    display: block;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    transition: .2s ease-in-out;
-    padding-right: 18px;
-    font-family: 'Inter';
-    font-style: normal;
+.footer__link {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+  transition: .335s ease-in-out;
+}
+.footer__link:hover {
+  opacity: .8;
+}
+@media (max-width: 425px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
   }
-  
-  .footer__link:hover {
-    opacity: .5;
-  }
-  
-  @media screen and (max-width: 767px) {
-    .footer__link {
-      padding-bottom: 32px;
-      padding-right: 0;
-      font-size: 24px;
-      line-height: 24px;
-    }
-  }
-
-
-
+}

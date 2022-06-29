@@ -1,7 +1,13 @@
-.header__logo{
-    background-image: url(../../../images/logo/logo.svg);
+.header__logo {
     width: 176px;
     height: 52px;
-    background-size: cover;
-}
-
+    display: block;
+  }
+  
+  @media (max-width: 767px) {
+    .header__logo {
+      width: 142px;
+      height: 42px;
+    }
+  }
+  
