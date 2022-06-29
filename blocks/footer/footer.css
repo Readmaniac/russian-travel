@@ -21,5 +21,6 @@
   .footer {
     max-width: calc(100% - 32px);
     flex-direction: column;
+    row-gap: 48px;
   }
 }

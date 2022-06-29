@@ -8,16 +8,18 @@
 @media (min-width: 769px) and (max-width: 1024px) {
   .places {
     max-width: calc(100% - 96px);
+    row-gap: 80px;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
   .places {
     max-width: calc(100% - 48px);
     row-gap: 73px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 426px) {
   .places {
+    margin: 0 auto 66px;
     row-gap: 50px;
   }
 }
