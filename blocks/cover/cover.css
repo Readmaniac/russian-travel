@@ -20,18 +20,3 @@
     padding: 0 0 64px 0;
   }
 }
-@media (min-width: 769px) and (max-width: 1024px) {
-  .cover__overlay {
-    min-height: 640px;
-  }
-}
-@media (min-width: 351px) and (max-width: 768px) {
-  .cover__overlay {
-    min-height: 480px;
-  }
-}
-@media (max-width: 320) {
-  .cover__overlay {
-    min-height: 200px;
-  }
-}
