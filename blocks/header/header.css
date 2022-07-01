@@ -1,26 +1,22 @@
 .header {
-  margin: 28px auto 56px;
-  max-width: calc(100% - 96px);
+  max-width: 100%;
   display: flex;
-  justify-content: start;
+  justify-content:space-between;
   align-items: flex-start;
   box-sizing: content-box;
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   .header {
-    margin: 28px auto 48px;
-    max-width: calc(100% - 96px);
+
   }
 }
 @media (min-width: 426px) and (max-width: 768px) {
   .header {
-    margin: 28px auto 48px;
-    max-width: calc(100% - 48px);
+
   }
 }
 @media (max-width: 425px) {
   .header {
-    margin: 28px auto 48px;
-    max-width: calc(100% - 32px);
+
   }
 }

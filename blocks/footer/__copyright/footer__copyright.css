@@ -1,13 +1,22 @@
 .footer__copyright {
   margin: 0;
+  padding-right: 48px;
+  padding-bottom: 24px;
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
   color: #ffffff;
+  max-width: max-content;
+}
+@media (max-width: 768px) {
+  .footer__copyright {
+    padding-right: 24px;
+  }
 }
 @media (max-width: 767px) {
   .footer__copyright {
     font-size: 14px;
     line-height: 14px;
+    padding-left: 16px;
   }
 }

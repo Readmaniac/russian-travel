@@ -1,23 +1,13 @@
 .footer {
-  margin: 0 auto 24px;
-  max-width: calc(100% - 96px);
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0;
   row-gap: 92px;
 }
-@media (min-width: 769px) and (max-width: 1024px) {
-  .footer {
-    max-width: calc(100% - 96px);
-  }
-}
-@media (min-width: 426px) and (max-width: 768px) {
-  .footer {
-    max-width: calc(100% - 48px);
-  }
-}
-@media (max-width: 425px) {
+
+@media (max-width: 767px) {
   .footer {
     max-width: calc(100% - 32px);
     flex-direction: column;
