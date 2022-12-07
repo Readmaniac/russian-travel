@@ -21,4 +21,6 @@
 - Вёрстка по макету в Figma.
 
 ## Ссылка на сайт:
+
 https://readmaniac.github.io/russian-travel/index.html
+
