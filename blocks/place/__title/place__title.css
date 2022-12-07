@@ -6,6 +6,7 @@
   font-weight: 900;
   color: #ffffff;
 }
+
 @media (min-width: 426px) and (max-width: 768px) {
   .place__title {
     max-width: 95%;
@@ -14,6 +15,7 @@
     line-height: 46px;
   }
 }
+
 @media (max-width: 425px) {
   .place__title {
     font-size: 32px;

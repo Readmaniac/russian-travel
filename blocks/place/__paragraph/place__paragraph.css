@@ -5,15 +5,18 @@
   font-weight: 400;
   color: #ffffff;
 }
+
 .place__paragraph:last-child {
   margin: 0 0 0 0;
 }
+
 @media (min-width: 426px) and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26px;
   }
 }
+
 @media (max-width: 425px) {
   .place__paragraph {
     font-size: 16px;

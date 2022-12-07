@@ -2,12 +2,14 @@
   max-width: 460px;
   display: block;
 }
+
 @media (min-width: 769px) and (max-width: 1024px) {
   .place__image {
     max-width: 440px;
     width: 100%;
   }
 }
+
 @media (min-width: 426px) and (max-width: 768px) {
   .place__image {
     margin: 0 auto;
@@ -15,11 +17,13 @@
     width: 100%;
   }
 }
+
 @media (min-width: 425px) and (max-width: 635px) {
   .place__image {
     max-width: 100%;
   }
 }
+
 @media (max-width: 425px) {
   .place__image {
     max-width: 100%;

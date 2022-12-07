@@ -1,18 +1,18 @@
 .header__lang-list {
-    padding: 46px 48px 56px 0;
-    margin: 0;
-    display: flex;
-    list-style: none;
-  }
+  padding: 46px 48px 56px 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
 
-  @media (max-width: 768px) {
-    .header__lang-list {
-      padding: 46px 24px 0 0;
-    }
+@media (max-width: 768px) {
+  .header__lang-list {
+    padding: 46px 24px 0 0;
   }
-  @media (max-width: 767px) {
-    .header__lang-list {
-      padding: 30px 16px 0 0;
-    }
+}
+
+@media (max-width: 767px) {
+  .header__lang-list {
+    padding: 30px 16px 0 0;
   }
-  
+}

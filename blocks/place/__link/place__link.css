@@ -5,7 +5,7 @@
     color: #ffffff;
     transition: ease-in-out .335s;
   }
-  .place__link:hover {
-    opacity: .8;
-  }
-  
+
+.place__link:hover {
+  opacity: .8;
+}

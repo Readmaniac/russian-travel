@@ -6,12 +6,14 @@
   row-gap: 80px;
   align-items: center;
 }
+
 @media (min-width: 769px) and (max-width: 1024px) {
   .places {
     max-width: 100%;
     row-gap: 80px;
   }
 }
+
 @media (min-width: 426px) and (max-width: 768px) {
   .places {
     max-width: 100%;
@@ -19,6 +21,7 @@
     row-gap: 73px;
   }
 }
+
 @media (max-width: 426px) {
   .places {
     padding: 0 0 66px 0;

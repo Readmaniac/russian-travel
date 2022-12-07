@@ -1,16 +1,17 @@
 .lead__content {
-    margin: 0;
+  margin: 0;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .lead__content {
+    margin: 0 auto;
+    max-width: 100%;
   }
-  @media (min-width: 426px) and (max-width: 768px) {
-    .lead__content {
-      margin: 0 auto;
-      max-width: 100%;
-    }
+}
+
+@media (max-width: 425px) {
+  .lead__content {
+    margin: 0 auto;
+    max-width: 425px;
   }
-  @media (max-width: 425px) {
-    .lead__content {
-      margin: 0 auto;
-      max-width: 425px;
-    }
-  }
-  
+}
